@@ -1,0 +1,26 @@
+.video-Player {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-Player video {
+  width: 90%;
+  max-width: 900px;
+  height: auto;
+  border: 4px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+/* Hide the player when the "hide" class is added */
+.video-Player.hide {
+  display: none;
+}
